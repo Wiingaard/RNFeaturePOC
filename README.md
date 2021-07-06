@@ -1,2 +1,2 @@
 # RNFeaturePOC
-Attempt in serve a feature written with React Native for a native iOS App via Swift Package Manager
+Attempt to serve a feature written with React Native for a native iOS App via Swift Package Manager
