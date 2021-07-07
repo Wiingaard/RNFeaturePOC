@@ -20,8 +20,7 @@ let package = Package(
         ),
         .binaryTarget(
             name: "SomeFramework",
-            url: "https://url/to/some/remote/xcframework.zip",
-            checksum: "31f6e2cf9a69d4248bef96769b59ee43a283086edba2e3468e25d5f5139617b2"
+            path: "RNFeaturePOC/Output/SomeFramework.xcframework",
         )
     ]
 )
