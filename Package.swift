@@ -7,20 +7,14 @@ let package = Package(
         .iOS(.v13)
     ],
     products: [
-        // Products define the executables and libraries a package produces, and make them visible to other packages.
-        .library(
-            name: "SomeFramework",
-            targets: ["SomeFramework"])
+        .library(name: "SomeFramework", targets: ["SomeFramework"])
     ],
     dependencies: [
     ],
     targets: [
-        .target(
-            name: "SomeFramework"
-        ),
         .binaryTarget(
             name: "SomeFramework",
-            path: "RNFeaturePOC/Output/SomeFramework.xcframework",
+            path: "RNFeaturePOC/Output/SomeFramework.xcframework"
         )
     ]
 )

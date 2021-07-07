@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		23EB0059F1237A41B9403B41 /* Pods_RNFeaturePOCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D60FA6B5D7B2BDC3C18D15D6 /* Pods_RNFeaturePOCTests.framework */; };
 		5B609FFB2695CECD006949D0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5B609FFA2695CECC006949D0 /* README.md */; };
-		5B609FFD2695D164006949D0 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B609FFC2695D164006949D0 /* Package.swift */; };
 		5B6B414326959A5100539129 /* SomeFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B6B413A26959A5000539129 /* SomeFramework.framework */; };
 		5B6B414A26959A5100539129 /* SomeFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6B414926959A5100539129 /* SomeFrameworkTests.swift */; };
 		5B6B414C26959A5100539129 /* SomeFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B6B413C26959A5000539129 /* SomeFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -85,7 +84,6 @@
 		494E778CE1D5B979B17316D4 /* Pods-RNFeaturePOC-RNFeaturePOCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNFeaturePOC-RNFeaturePOCUITests.debug.xcconfig"; path = "Target Support Files/Pods-RNFeaturePOC-RNFeaturePOCUITests/Pods-RNFeaturePOC-RNFeaturePOCUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		53AEDC1927D28A4D96CD02C7 /* Pods_RNFeaturePOC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNFeaturePOC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B609FFA2695CECC006949D0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		5B609FFC2695D164006949D0 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Package.swift; path = ../Package.swift; sourceTree = "<group>"; };
 		5B6B413A26959A5000539129 /* SomeFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SomeFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B6B413C26959A5000539129 /* SomeFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SomeFramework.h; sourceTree = "<group>"; };
 		5B6B413D26959A5000539129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -186,7 +184,6 @@
 		5B8B2682269477EA0071FA2D = {
 			isa = PBXGroup;
 			children = (
-				5B609FFC2695D164006949D0 /* Package.swift */,
 				5B609FFA2695CECC006949D0 /* README.md */,
 				5B8B268D269477EB0071FA2D /* RNFeaturePOC */,
 				5B8B26A4269477ED0071FA2D /* RNFeaturePOCTests */,
@@ -611,7 +608,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B609FFD2695D164006949D0 /* Package.swift in Sources */,
 				5B8B268F269477EB0071FA2D /* AppDelegate.swift in Sources */,
 				5B8B2691269477EB0071FA2D /* SceneDelegate.swift in Sources */,
 				5B8B2693269477EB0071FA2D /* ContentView.swift in Sources */,
