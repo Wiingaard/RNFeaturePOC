@@ -2,19 +2,19 @@
 import PackageDescription
 
 let package = Package(
-    name: "SomeFramework",
+    name: "SomeOtherFramework",
     platforms: [
         .iOS(.v13)
     ],
     products: [
-        .library(name: "SomeFramework", targets: ["SomeFramework"])
+        .library(name: "SomeOtherFramework", targets: ["SomeOtherFramework"])
     ],
     dependencies: [
     ],
     targets: [
         .binaryTarget(
-            name: "SomeFramework",
-            path: "RNFeaturePOC/Output/SomeFramework.xcframework"
+            name: "SomeOtherFramework",
+            path: "RNFeaturePOC/Output/SomeOtherFramework.xcframework"
         )
     ]
 )

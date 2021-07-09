@@ -23,6 +23,12 @@
 		5B8B269B269477ED0071FA2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B8B2699269477ED0071FA2D /* LaunchScreen.storyboard */; };
 		5B8B26A6269477ED0071FA2D /* RNFeaturePOCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8B26A5269477ED0071FA2D /* RNFeaturePOCTests.swift */; };
 		5B8B26B1269477ED0071FA2D /* RNFeaturePOCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8B26B0269477ED0071FA2D /* RNFeaturePOCUITests.swift */; };
+		5BE221902698388D00AA4F89 /* SomeOtherFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE221872698388D00AA4F89 /* SomeOtherFramework.framework */; };
+		5BE221972698388D00AA4F89 /* SomeOtherFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE221962698388D00AA4F89 /* SomeOtherFrameworkTests.swift */; };
+		5BE221992698388D00AA4F89 /* SomeOtherFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BE221892698388D00AA4F89 /* SomeOtherFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BE2219C2698388D00AA4F89 /* SomeOtherFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE221872698388D00AA4F89 /* SomeOtherFramework.framework */; };
+		5BE2219D2698388D00AA4F89 /* SomeOtherFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE221872698388D00AA4F89 /* SomeOtherFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5BE221A5269838B300AA4F89 /* SoRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE221A4269838B300AA4F89 /* SoRandom.swift */; };
 		89F528D0652CB797CF2FBF96 /* Pods_RNFeaturePOC_RNFeaturePOCUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBACD8085FC7256F0502D81C /* Pods_RNFeaturePOC_RNFeaturePOCUITests.framework */; };
 		B242D56F98703CDB7893C8D7 /* Pods_RNFeaturePOC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53AEDC1927D28A4D96CD02C7 /* Pods_RNFeaturePOC.framework */; };
 		F00930883DDAA42AA4B1084C /* Pods_RNFeaturePOC_SomeFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B9ACA8FD68FD6F6D930C5D /* Pods_RNFeaturePOC_SomeFramework.framework */; };
@@ -64,6 +70,27 @@
 			remoteGlobalIDString = 5B8B268A269477EB0071FA2D;
 			remoteInfo = RNFeaturePOC;
 		};
+		5BE221912698388D00AA4F89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B8B2683269477EA0071FA2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BE221862698388D00AA4F89;
+			remoteInfo = SomeOtherFramework;
+		};
+		5BE221932698388D00AA4F89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B8B2683269477EA0071FA2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B8B268A269477EB0071FA2D;
+			remoteInfo = RNFeaturePOC;
+		};
+		5BE2219A2698388D00AA4F89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B8B2683269477EA0071FA2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BE221862698388D00AA4F89;
+			remoteInfo = SomeOtherFramework;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -73,6 +100,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				5BE2219D2698388D00AA4F89 /* SomeOtherFramework.framework in Embed Frameworks */,
 				5B6B415026959A5100539129 /* SomeFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -105,6 +133,13 @@
 		5B8B26AC269477ED0071FA2D /* RNFeaturePOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNFeaturePOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B8B26B0269477ED0071FA2D /* RNFeaturePOCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNFeaturePOCUITests.swift; sourceTree = "<group>"; };
 		5B8B26B2269477ED0071FA2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BE221872698388D00AA4F89 /* SomeOtherFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SomeOtherFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BE221892698388D00AA4F89 /* SomeOtherFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SomeOtherFramework.h; sourceTree = "<group>"; };
+		5BE2218A2698388D00AA4F89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BE2218F2698388D00AA4F89 /* SomeOtherFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SomeOtherFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BE221962698388D00AA4F89 /* SomeOtherFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeOtherFrameworkTests.swift; sourceTree = "<group>"; };
+		5BE221982698388D00AA4F89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BE221A4269838B300AA4F89 /* SoRandom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoRandom.swift; sourceTree = "<group>"; };
 		76B9ACA8FD68FD6F6D930C5D /* Pods_RNFeaturePOC_SomeFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNFeaturePOC_SomeFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C0EDCCB312695D29D507715 /* Pods-RNFeaturePOCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNFeaturePOCTests.debug.xcconfig"; path = "Target Support Files/Pods-RNFeaturePOCTests/Pods-RNFeaturePOCTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7C7D841DB855CC4F9B373506 /* Pods-RNFeaturePOC-SomeFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNFeaturePOC-SomeFramework.release.xcconfig"; path = "Target Support Files/Pods-RNFeaturePOC-SomeFramework/Pods-RNFeaturePOC-SomeFramework.release.xcconfig"; sourceTree = "<group>"; };
@@ -139,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B242D56F98703CDB7893C8D7 /* Pods_RNFeaturePOC.framework in Frameworks */,
+				5BE2219C2698388D00AA4F89 /* SomeOtherFramework.framework in Frameworks */,
 				5B6B414F26959A5100539129 /* SomeFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -156,6 +192,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				89F528D0652CB797CF2FBF96 /* Pods_RNFeaturePOC_RNFeaturePOCUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BE221842698388D00AA4F89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BE2218C2698388D00AA4F89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE221902698388D00AA4F89 /* SomeOtherFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,6 +241,8 @@
 				5B8B26AF269477ED0071FA2D /* RNFeaturePOCUITests */,
 				5B6B413B26959A5000539129 /* SomeFramework */,
 				5B6B414826959A5100539129 /* SomeFrameworkTests */,
+				5BE221882698388D00AA4F89 /* SomeOtherFramework */,
+				5BE221952698388D00AA4F89 /* SomeOtherFrameworkTests */,
 				5B8B268C269477EB0071FA2D /* Products */,
 				CF354D56C347AD0766700FA5 /* Pods */,
 				6B34DFA6D3814332E7BD3894 /* Frameworks */,
@@ -204,6 +257,8 @@
 				5B8B26AC269477ED0071FA2D /* RNFeaturePOCUITests.xctest */,
 				5B6B413A26959A5000539129 /* SomeFramework.framework */,
 				5B6B414226959A5100539129 /* SomeFrameworkTests.xctest */,
+				5BE221872698388D00AA4F89 /* SomeOtherFramework.framework */,
+				5BE2218F2698388D00AA4F89 /* SomeOtherFrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -248,6 +303,25 @@
 			path = RNFeaturePOCUITests;
 			sourceTree = "<group>";
 		};
+		5BE221882698388D00AA4F89 /* SomeOtherFramework */ = {
+			isa = PBXGroup;
+			children = (
+				5BE221892698388D00AA4F89 /* SomeOtherFramework.h */,
+				5BE2218A2698388D00AA4F89 /* Info.plist */,
+				5BE221A4269838B300AA4F89 /* SoRandom.swift */,
+			);
+			path = SomeOtherFramework;
+			sourceTree = "<group>";
+		};
+		5BE221952698388D00AA4F89 /* SomeOtherFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BE221962698388D00AA4F89 /* SomeOtherFrameworkTests.swift */,
+				5BE221982698388D00AA4F89 /* Info.plist */,
+			);
+			path = SomeOtherFrameworkTests;
+			sourceTree = "<group>";
+		};
 		6B34DFA6D3814332E7BD3894 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -282,6 +356,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B6B414C26959A5100539129 /* SomeFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BE221822698388D00AA4F89 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE221992698388D00AA4F89 /* SomeOtherFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +423,7 @@
 			);
 			dependencies = (
 				5B6B414E26959A5100539129 /* PBXTargetDependency */,
+				5BE2219B2698388D00AA4F89 /* PBXTargetDependency */,
 			);
 			name = RNFeaturePOC;
 			productName = RNFeaturePOC;
@@ -385,6 +468,43 @@
 			productReference = 5B8B26AC269477ED0071FA2D /* RNFeaturePOCUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		5BE221862698388D00AA4F89 /* SomeOtherFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BE221A22698388D00AA4F89 /* Build configuration list for PBXNativeTarget "SomeOtherFramework" */;
+			buildPhases = (
+				5BE221822698388D00AA4F89 /* Headers */,
+				5BE221832698388D00AA4F89 /* Sources */,
+				5BE221842698388D00AA4F89 /* Frameworks */,
+				5BE221852698388D00AA4F89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SomeOtherFramework;
+			productName = SomeOtherFramework;
+			productReference = 5BE221872698388D00AA4F89 /* SomeOtherFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5BE2218E2698388D00AA4F89 /* SomeOtherFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BE221A32698388D00AA4F89 /* Build configuration list for PBXNativeTarget "SomeOtherFrameworkTests" */;
+			buildPhases = (
+				5BE2218B2698388D00AA4F89 /* Sources */,
+				5BE2218C2698388D00AA4F89 /* Frameworks */,
+				5BE2218D2698388D00AA4F89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BE221922698388D00AA4F89 /* PBXTargetDependency */,
+				5BE221942698388D00AA4F89 /* PBXTargetDependency */,
+			);
+			name = SomeOtherFrameworkTests;
+			productName = SomeOtherFrameworkTests;
+			productReference = 5BE2218F2698388D00AA4F89 /* SomeOtherFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -413,6 +533,14 @@
 						CreatedOnToolsVersion = 12.5.1;
 						TestTargetID = 5B8B268A269477EB0071FA2D;
 					};
+					5BE221862698388D00AA4F89 = {
+						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
+					};
+					5BE2218E2698388D00AA4F89 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 5B8B268A269477EB0071FA2D;
+					};
 				};
 			};
 			buildConfigurationList = 5B8B2686269477EA0071FA2D /* Build configuration list for PBXProject "RNFeaturePOC" */;
@@ -433,6 +561,8 @@
 				5B8B26AB269477ED0071FA2D /* RNFeaturePOCUITests */,
 				5B6B413926959A5000539129 /* SomeFramework */,
 				5B6B414126959A5100539129 /* SomeFrameworkTests */,
+				5BE221862698388D00AA4F89 /* SomeOtherFramework */,
+				5BE2218E2698388D00AA4F89 /* SomeOtherFrameworkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -471,6 +601,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		5B8B26AA269477ED0071FA2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BE221852698388D00AA4F89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BE2218D2698388D00AA4F89 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -630,6 +774,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5BE221832698388D00AA4F89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE221A5269838B300AA4F89 /* SoRandom.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BE2218B2698388D00AA4F89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE221972698388D00AA4F89 /* SomeOtherFrameworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -657,6 +817,21 @@
 			isa = PBXTargetDependency;
 			target = 5B8B268A269477EB0071FA2D /* RNFeaturePOC */;
 			targetProxy = 5B8B26AD269477ED0071FA2D /* PBXContainerItemProxy */;
+		};
+		5BE221922698388D00AA4F89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BE221862698388D00AA4F89 /* SomeOtherFramework */;
+			targetProxy = 5BE221912698388D00AA4F89 /* PBXContainerItemProxy */;
+		};
+		5BE221942698388D00AA4F89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B8B268A269477EB0071FA2D /* RNFeaturePOC */;
+			targetProxy = 5BE221932698388D00AA4F89 /* PBXContainerItemProxy */;
+		};
+		5BE2219B2698388D00AA4F89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BE221862698388D00AA4F89 /* SomeOtherFramework */;
+			targetProxy = 5BE2219A2698388D00AA4F89 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1025,6 +1200,105 @@
 			};
 			name = Release;
 		};
+		5BE2219E2698388D00AA4F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = EZC8UV7V24;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SomeOtherFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.wiingaard.SomeOtherFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5BE2219F2698388D00AA4F89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = EZC8UV7V24;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SomeOtherFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.wiingaard.SomeOtherFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5BE221A02698388D00AA4F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EZC8UV7V24;
+				INFOPLIST_FILE = SomeOtherFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.wiingaard.SomeOtherFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNFeaturePOC.app/RNFeaturePOC";
+			};
+			name = Debug;
+		};
+		5BE221A12698388D00AA4F89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EZC8UV7V24;
+				INFOPLIST_FILE = SomeOtherFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.wiingaard.SomeOtherFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNFeaturePOC.app/RNFeaturePOC";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1078,6 +1352,24 @@
 			buildConfigurations = (
 				5B8B26BC269477ED0071FA2D /* Debug */,
 				5B8B26BD269477ED0071FA2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BE221A22698388D00AA4F89 /* Build configuration list for PBXNativeTarget "SomeOtherFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BE2219E2698388D00AA4F89 /* Debug */,
+				5BE2219F2698388D00AA4F89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BE221A32698388D00AA4F89 /* Build configuration list for PBXNativeTarget "SomeOtherFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BE221A02698388D00AA4F89 /* Debug */,
+				5BE221A12698388D00AA4F89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

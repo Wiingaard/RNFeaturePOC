@@ -1,0 +1,30 @@
+BCSymbolMap Version: 2.0
+Apple clang version 12.0.5 (clang-1205.0.22.11)
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk
+iPhoneOS14.5.sdk
+/Users/martin/Library/Developer/Xcode/DerivedData/RNFeaturePOC-fdwcvtzezvfifegyyuqkepygsgxw/Build/Intermediates.noindex/ArchiveIntermediates/SomeOtherFramework/IntermediateBuildFilesPath/RNFeaturePOC.build/Release-iphoneos/SomeOtherFramework.build/DerivedSources/SomeOtherFramework_vers.c
+/Users/martin/git/RNFeaturePOC/RNFeaturePOC
+__swift_FORCE_LOAD_$_swiftFoundation_$_SomeOtherFramework
+__swift_FORCE_LOAD_$_swiftObjectiveC_$_SomeOtherFramework
+__swift_FORCE_LOAD_$_swiftDarwin_$_SomeOtherFramework
+__swift_FORCE_LOAD_$_swiftCoreFoundation_$_SomeOtherFramework
+__swift_FORCE_LOAD_$_swiftDispatch_$_SomeOtherFramework
+__swift_FORCE_LOAD_$_swiftCoreGraphics_$_SomeOtherFramework
+___swift_reflection_version
+Apple clang version 12.0.5 (clang-1205.0.19.57)
+<swift-imported-modules>
+Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
+/Users/martin/git/RNFeaturePOC/RNFeaturePOC/SomeOtherFramework/SoRandom.swift
+thisIsRandom
+random
+<compiler-generated>
+$ss17FixedWidthIntegerPsE6random2in5usingxSnyxG_qd__ztSGRd__lFZSi_s27SystemRandomNumberGeneratorVTg5
+$sSGsE4next10upperBoundqd__qd___ts17FixedWidthIntegerRd__SURd__lFs27SystemRandomNumberGeneratorV_SuTg5
+$sSuSLsSL1loiySbx_xtFZTW
+$sSus17FixedWidthIntegerssAAP014multipliedFullB02byx4high_9MagnitudeQz3lowtx_tFTW
+$sSu19multipliedFullWidth2bySu4high_Su3lowtSu_tF
+$sSGsE4nextqd__ys17FixedWidthIntegerRd__SURd__lFs27SystemRandomNumberGeneratorV_SuTg5
+$ss17FixedWidthIntegerPsE7_random5usingxqd__z_tSGRd__lFZSu_s27SystemRandomNumberGeneratorVTg5
+$ss27SystemRandomNumberGeneratorVSGsSG4nexts6UInt64VyFTW
+$ss27SystemRandomNumberGeneratorV4nexts6UInt64VyF
+$sSus17FixedWidthIntegerssAAP23addingReportingOverflowyx12partialValue_Sb8overflowtxFTW

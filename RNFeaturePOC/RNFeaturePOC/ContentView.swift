@@ -7,10 +7,14 @@
 
 import SwiftUI
 import SomeFramework
+import SomeOtherFramework
 
 struct ContentView: View {
     var body: some View {
-        UserAgentText()
+        VStack {
+            UserAgentText()
+            Text("Random: \(thisIsRandom())")
+        }
     }
 }
 
